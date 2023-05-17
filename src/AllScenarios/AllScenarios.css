@@ -1,0 +1,55 @@
+.main2{
+    display: flex;
+    flex-direction: row;
+}
+#main2-body{
+    width: 85%;
+    padding: 30px;
+}
+#heading-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    border-spacing: 0px 2px;
+    text-align: center;
+}
+thead{
+    background-color: rgb(83, 82, 82);
+    height: 40px;
+}
+tbody{
+    color: black;
+    height: 40px;
+    background-color: rgb(220, 220, 220);
+}
+#btn4{
+    margin: 10px;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: rgb(95, 95, 255);
+    border: transparent;
+    border-radius: 2px;
+}
+#btn5{
+    margin: 10px;
+    width:90px;
+    height: 25px;
+    color: white;
+    background-color: green;
+    border: transparent;
+    border-radius: 2px;
+}
+#btn6{
+    margin: 10px;
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: orange;
+    border: transparent;
+    border-radius: 2px;
+}
