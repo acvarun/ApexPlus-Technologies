@@ -1,0 +1,52 @@
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#main-body{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 30px;
+}
+table{
+    width: 100%;
+    border-spacing: 0px 2px;
+    text-align: center;
+}
+thead{
+    background-color: rgb(83, 82, 82);
+    height: 40px;
+}
+tbody{
+    color: black;
+    height: 40px;
+    background-color: rgb(220, 220, 220);
+}
+#btn7{
+    margin: 10px;
+    width: 120px;
+    height: 25px;
+    color: white;
+    background-color: green;
+    border: transparent;
+    border-radius: 2px;
+}
+#btn8{
+    margin: 10px;
+    width: 120px;
+    height: 25px;
+    color: white;
+    background-color: blue;
+    border: transparent;
+    border-radius: 2px;
+}
+#simulation-div{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(14,70px);
+    grid-template-rows: repeat(6,70px);
+    
+}
+#simulation-div div{
+    border: 1px solid darkgreen;
+}
