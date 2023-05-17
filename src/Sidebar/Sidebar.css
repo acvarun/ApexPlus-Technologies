@@ -1,0 +1,19 @@
+.sidebar{
+    width: 20%;
+    height : 100vh;
+    background-color: rgb(218, 218, 222);
+    padding: 30px 10px;
+    color: black;
+}
+a:link {
+     text-decoration: none;
+
+}
+
+.sidebar div{
+    width: 100%;
+    padding: 10px 0px;
+}
+.sidebar :hover{
+    background-color: gray;
+}
